@@ -14,6 +14,7 @@ class CreateLocalTypesTable extends Migration
     {
         Schema::create('local_types', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('description');
             $table->timestamps();
         });
     }
