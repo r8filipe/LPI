@@ -18,6 +18,7 @@ class UsersTableSeeder extends Seeder
 //        ]);
         factory(App\User::class, 2)->create([
             'password' => bcrypt('sysdba'),
+            'role' => 3,
         ]);
     }
 }

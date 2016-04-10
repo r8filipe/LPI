@@ -24,3 +24,5 @@ Route::get('/event', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/webservice/report', 'WebserviceController@report');
