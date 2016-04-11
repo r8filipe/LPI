@@ -11,6 +11,9 @@ class Local_typesTableSeeder extends Seeder
      */
     public function run()
     {
+//        DB::table('local_types')->insert([
+//            'description' => str_random(10),
+//        ]);
         factory(App\Local_type::class, 10)->create();
     }
 }

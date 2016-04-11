@@ -18,6 +18,6 @@ class EventsTableSeeder extends Seeder
 //            'local_type_id' => rand(1, 10),
 //            'address' => str_random(10),
 //        ]);
-        factory(App\Event::class, 2)->create();
+        factory(App\Event::class, 150)->create();
     }
 }

@@ -17,9 +17,8 @@ Route::get('/', function () {
 Route::get('/map', function () {
     return view('eventsmaps');
 });
-Route::get('/event', function () {
-    return view('events');
-});
+
+Route::get('/events', 'EventsController@getEvents');
 
 Route::auth();
 
