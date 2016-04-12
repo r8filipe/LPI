@@ -17,27 +17,27 @@ class InsertCategoriesData extends Migration
                 array(
                     'id' => '1',
                     'description' => 'Acessibilidade',
-                    'icon' => 'Acessibilidade'
+                    'icon' => 'acessibilidade'
                 ),
                 array(
                     'id' => '2',
                     'description' => 'Condições Ambientais',
-                    'icon' => 'Condições Ambientais'
+                    'icon' => 'ambiental'
                 ),
                 array(
                     'id' => '3',
                     'description' => 'Controlo e Vigilância',
-                    'icon' => 'Controlo e Vigilância'
+                    'icon' => 'vigilancia'
                 ),
                 array(
                     'id' => '4',
                     'description' => 'Estrutura de Espaços',
-                    'icon' => 'Estrutura de Espaços'
+                    'icon' => 'espacos'
                 ),
                 array(
                     'id' => '5',
                     'description' => 'Visibilidade',
-                    'icon' => 'Visibilidade'
+                    'icon' => 'visibilidade'
                 ),
             )
         );
