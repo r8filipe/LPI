@@ -14,4 +14,9 @@ class EventsController extends Controller
         $events = Event::all();
         return view('events', ['events' => $events]);
     }
+    public function getMapEvents()
+    {
+        $events = Event::all();
+        return view('eventsmaps', ['events' => $events]);
+    }
 }

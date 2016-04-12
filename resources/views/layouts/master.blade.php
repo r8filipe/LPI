@@ -10,9 +10,14 @@
     <meta name="author" content="">
 
     <title>PrevCrime Admin</title>
+    <!-- OpenLayers 3 CSS -->
+    <link href="ol/ol.css" rel="stylesheet">
 
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- OpenLayers 3 layout CSS -->
+    <link href="layout.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="metisMenu/dist/metisMenu.min.css" rel="stylesheet">
@@ -33,6 +38,12 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- jQuery -->
+    <script src="jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- OpenLayers 3 JavaScript -->
+    <script src="ol/ol.js"></script>
 </head>
 
 <body>
@@ -169,12 +180,6 @@
 
 </div>
 <!-- /#wrapper -->
-
-<!-- jQuery -->
-<script src="jquery/dist/jquery.min.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
 <script src="metisMenu/dist/metisMenu.min.js"></script>
