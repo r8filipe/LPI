@@ -5,11 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use Illuminate\Support\Facades\Input;
-use App\Event;
-use Validator;
 
-class WebServiceController extends Controller
+class WebController extends Controller
 {
     public function report()
     {
@@ -63,5 +60,4 @@ class WebServiceController extends Controller
             'required' => 'The :attribute field is required.'
         ];
     }
-
 }
