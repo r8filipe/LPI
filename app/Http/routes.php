@@ -23,4 +23,4 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/webservice/report', 'WebserviceController@report');
+Route::get('/webservice/report', 'WebserverController@report');

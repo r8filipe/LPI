@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class WebController extends Controller
+class WebserverController extends Controller
 {
     public function report()
     {
