@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+point	title	description	icon
+10,20	my orange title	my orange description	http://www.myiconfinder.com/uploads/iconsets/256-256-a5485b563efc4511e0cd8bd04ad0fe9e.png
+2,4	my aqua title	my aqua description	http://www.myiconfinder.com/uploads/iconsets/256-256-a5485b563efc4511e0cd8bd04ad0fe9e.png
+42,-71	my purple title	my purple description<br/>is great	http://www.myiconfinder.com/uploads/iconsets/256-256-a5485b563efc4511e0cd8bd04ad0fe9e.png
+=======
 lat	lon	title	description	iconOffset
 51.4727286	-0.1779688	point number 1	point number 1	-10,-25
 51.4737286	-0.1779688	point number 2	point number 2	-10,-25
@@ -4689,3 +4695,4 @@ lat	lon	title	description	iconOffset
 51.5397286	-0.0789688	point number 4688	point number 4688	-10,-25
 51.5407286	-0.0789688	point number 4689	point number 4689	-10,-25
 51.5417286	-0.0789688	point number 4690	point number 4690	-10,-25
+>>>>>>> master

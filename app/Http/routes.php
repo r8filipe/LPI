@@ -14,9 +14,8 @@
 Route::get('/', function () {
     return view('eventsmaps');
 });
-Route::get('/map', function () {
-    return view('eventsmaps');
-});
+
+Route::get('/map', 'EventsController@getMapEvents');
 
 Route::get('/events', 'EventsController@getEvents');
 
