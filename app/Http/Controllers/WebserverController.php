@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use Validator;
 use App\Http\Requests;
+use App\Event;
 
 class WebserverController extends Controller
 {
@@ -49,8 +50,8 @@ class WebserverController extends Controller
         return [
             'categoria' => 'required|integer',
             'coordenadas' => 'required',
-            'local' => 'required',
-            'rua' => 'required',
+//            'local' => 'required',
+//            'rua' => 'required',
             'subcategoria' => 'required|integer',
         ];
     }
