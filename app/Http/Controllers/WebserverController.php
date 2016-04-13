@@ -27,8 +27,9 @@ class WebserverController extends Controller
             file_put_contents($file1, utf8_encode($test), FILE_APPEND | LOCK_EX);
 
             $event = new Event;
-            $event->lat = $data['coordenadas'];
-            $event->long = $data['coordenadas'];
+            $coordenate = explode(",", $data['coordenadas']);
+            $event->lat = substr($coordenate[0], 0,8);
+            $event->long = substr($coordenate[1], 0,8);
             $event->sub_category_id = $data['subcategoria'];
             $event->local_type_id = $data['local'];
             $event->address = $data['rua'];
