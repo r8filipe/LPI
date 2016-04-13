@@ -12,19 +12,19 @@
     <title>PrevCrime Admin</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- DataTables CSS -->
-    <link href="datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="custom/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/custom/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -148,7 +148,7 @@
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="/event"><i class="fa fa-bug"></i> Ocorrencias</a>
+                        <a href="/events"><i class="fa fa-bug"></i> Ocorrencias</a>
                     </li>
                     <li>
                         <a href="/map"><i class="fa fa-globe"></i> Mapa</a>
@@ -171,20 +171,20 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="jquery/dist/jquery.min.js"></script>
+<script src="/jquery/dist/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="metisMenu/dist/metisMenu.min.js"></script>
+<script src="/metisMenu/dist/metisMenu.min.js"></script>
 
 <!-- DataTables JavaScript -->
-<script src="datatables/media/js/jquery.dataTables.min.js"></script>
-<script src="datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+<script src="/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="custom/js/sb-admin-2.js"></script>
+<script src="/custom/js/sb-admin-2.js"></script>
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
 <script>

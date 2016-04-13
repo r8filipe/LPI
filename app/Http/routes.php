@@ -20,6 +20,11 @@ Route::get('/map', function () {
 
 Route::get('/events', 'EventsController@getEvents');
 
+Route::get('/events/{id}', function ($id) {
+    $event = \App\Event::find($id);
+    return view('event', ['event' => $event]);
+});
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

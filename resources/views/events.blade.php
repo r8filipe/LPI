@@ -42,7 +42,7 @@
                                     <td class="center">{{$event->sub_category->description}}</td>
                                     <td class="center">{{$event->local_type->description}}</td>
                                     <td class="center">{{$event->created_at}}</td>
-                                    <td class="center">-</td>
+                                    <td class="center"><a href='/events/{{$event->id}}'>ver</a></td>
                                 </tr>
                             @endforeach
                             </tbody>
