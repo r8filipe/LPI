@@ -24,3 +24,4 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/webservice/report', 'WebserverController@report');
+Route::get('/webservice/imageupload', 'WebserverController@imageupload');

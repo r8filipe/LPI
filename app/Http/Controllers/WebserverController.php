@@ -28,8 +28,8 @@ class WebserverController extends Controller
 
             $event = new Event;
             $coordenate = explode(",", $data['coordenadas']);
-            $event->lat = substr($coordenate[0], 0,8);
-            $event->long = substr($coordenate[1], 0,8);
+            $event->lat = substr($coordenate[0], 0, 8);
+            $event->long = substr($coordenate[1], 0, 8);
             $event->sub_category_id = $data['subcategoria'];
             $event->local_type_id = $data['local'];
             $event->address = $data['rua'];
@@ -43,6 +43,25 @@ class WebserverController extends Controller
             $test1 = $validator->errors() . '\n';
             file_put_contents($file1, utf8_encode($test1), FILE_APPEND | LOCK_EX);
             return response()->json(['message' => $validator->errors(), 'state' => 'FAIL']);
+        }
+    }
+
+    public function imageupload()
+    {
+        $target_path = "uploads/";
+
+        $target_path = $target_path . basename($_FILES['image']['name']);
+
+        try {
+            $file1 = 'form.txt';
+            if (!move_uploaded_file($_FILES['image']['tmp_name'], $target_path)) {
+
+                return response()->json(['message' => 'erro ao mover ficheiro', 'state' => 'FAIL']);
+            }
+            return response()->json(['message' => 'Moveu ficheiro com sucesso', 'state' => 'FAIL']);
+        } catch (Exception $e) {
+            die('File did not upload: ' . $e->getMessage());
+            return response()->json(['message' => $e->getMessage(), 'state' => 'FAIL']);
         }
     }
 
